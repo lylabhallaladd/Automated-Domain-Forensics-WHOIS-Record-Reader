@@ -1,0 +1,2 @@
+# WHOIS-AUTO
+test
