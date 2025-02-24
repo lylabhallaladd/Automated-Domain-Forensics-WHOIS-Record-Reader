@@ -1,2 +1,2 @@
 # WHOIS-AUTO
-test
+Code best applicable in a GoogleSheets Scripts function.
