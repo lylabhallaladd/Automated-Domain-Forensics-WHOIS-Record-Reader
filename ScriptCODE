@@ -1,5 +1,5 @@
 function GET_WHOIS(domain) {
-  var apiKey = "at_g5oKcoAtKPHb427zvkaXiTWs7lTv7"; 
+  var apiKey =; 
   var url = `https://www.whoisxmlapi.com/whoisserver/WhoisService?apiKey=${apiKey}&domainName=${domain}&outputFormat=json`;
 
   try {
