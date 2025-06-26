@@ -7,12 +7,18 @@
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script>
+      function handleClick() {
+        const inputValue = document.getElementId("myInput").value;
+        alert("You entered; " + inputValue);
+      }
+        </script>
   </head>
   <body>
     <main>
         <h1>Domain Forensics Tool Test</h1> 
-        <input type="text"></input>
-        <button> Run tool </button>
+        <input type="text" id="myInput" </input>
+        <button onclick="handleClick()"> Run tool </button>
     </main>
     <script src="index.js"></script>
   </body>
