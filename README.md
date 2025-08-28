@@ -1,0 +1,2 @@
+To use the Automated Domain Forensics WHOIS Record Reader, copy the main branch code into Google Sheets Apps Script. The API key is available upon request. 
+In the Sheet, enter any domains into column A, and the equation =GET_WHOIS in column B. Drag down to produce the WHOIS record for multiple domains. Use conditional formatting to highlight any repeat values across domain records for efficient analysis. 
